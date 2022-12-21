@@ -1,3 +1,6 @@
+# Presentation: https://docs.google.com/presentation/d/1kjyIQJKmX-JwUyoX1FIQE9ncYLgZ3RnXb4aeUiB3mWw/edit#slide=id.g1bef20b4033_3_0
+# Kanban board: https://trello.com/b/L7clIZsK/clusteringalgorithm
+
 # CulsteringAlgorithm
 
 ## Naive Implementation:
