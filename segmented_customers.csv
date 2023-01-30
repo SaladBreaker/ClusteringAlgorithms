@@ -1,4 +1,4 @@
-CustomerID,Gender,Age,Annual Income (k$),Spending Score (1-100),cluster
+CustomerID,Gender,Age,Annual_Income,Spending_Score,cluster
 1,1,19,15,39,3
 2,1,21,15,81,4
 3,0,20,16,6,3
