@@ -3,7 +3,7 @@ import numpy as np
 
 
 class QueueClustering:
-    def _init_(self, n_clusters):
+    def __init__(self, n_clusters):
         self.n_clusters = n_clusters
 
     def fit_predict(self, X):
