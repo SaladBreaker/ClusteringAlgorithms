@@ -1,14 +1,14 @@
 import pandas as pd
 import numpy as np
 
-from models.queue_model import AgglomerativeClustering3
+from models.queue_model import QueueClustering
 
 DUMMY_ENTRY = {'CustomerID': [1, 2, 3], 'Gender': [1, 0, 1], 'Age': [30, 25, 35],
                'Annual_Income': [50000, 60000, 55000], 'Spending_Score': [70, 80, 75], 'cluster': [1, 2, 3]}
 
 
 class TestQueueImplementation:
-    alg = AgglomerativeClustering3(3)
+    alg = QueueClustering(3)
 
     def test_constructor(self):
         assert self.alg.n_clusters == 3

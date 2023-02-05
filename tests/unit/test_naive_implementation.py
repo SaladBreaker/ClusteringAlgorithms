@@ -3,14 +3,14 @@ import pdb
 import pandas as pd
 import numpy as np
 
-from models.naive_model import AgglomerativeClustering1
+from models.naive_model import NaiveClustering
 
 DUMMY_ENTRY = {'CustomerID': [1, 2, 3], 'Gender': [1, 0, 1], 'Age': [30, 25, 35],
                'Annual_Income': [50000, 60000, 55000], 'Spending_Score': [70, 80, 75], 'cluster': [1, 2, 3]}
 
 
 class TestNaiveImplementation:
-    alg = AgglomerativeClustering1(3)
+    alg = NaiveClustering(3)
 
     def test_constructor(self):
         assert self.alg.n_clusters == 3
