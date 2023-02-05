@@ -2,7 +2,7 @@ from collections import deque
 import numpy as np
 
 
-class AgglomerativeClustering3:
+class QueueClustering:
     def __init__(self, n_clusters, distance_metric='euclidean'):
         self.n_clusters = n_clusters
         self.distance_metric = distance_metric

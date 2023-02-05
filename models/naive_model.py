@@ -1,7 +1,7 @@
 import numpy as np
 
 
-class AgglomerativeClustering1:
+class NaiveClustering:
     def __init__(self, n_clusters):
         self.n_clusters = n_clusters
 
