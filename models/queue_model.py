@@ -54,6 +54,18 @@ class AgglomerativeClustering3:
                 distances[j, i] = distances[i, j]
         return distances
 
+    def _update_nearest_neighbors(self, nearest_neighbors, min_i, distances):
+        n_samples = distances.shape[0]
+        for j in range(n_samples):
+            if min_i == j:
+                continue
+            if j in nearest_neighbors[min_i]:
+                nearest_neighbors[min_i].remove(j)
+            if distances[min_i, j] < distances[j, nearest_neighbors[j][0]]:
+                nearest_neighbors[j][0] = min_i
+            else:
+                nearest_neighbors[j].append(min_i)
+
     def _calculate_nearest_neighbors(self, distances):
         n_samples = distances.shape[0]
         nearest_neighbors = [deque([j for j in range(n_samples) if j != i]) for i in range(n_samples)]
