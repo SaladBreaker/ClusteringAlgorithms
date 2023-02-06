@@ -1,5 +1,11 @@
 # CulsteringAlgorithm
 
+## Instalation
+
+* Step 1: Make sure that a Python 3 environment was set up onto the machine. A free version can be found on the official website - https://www.python.org/. More details on how to set up a python environment can be found at: https://www.tutorialspoint.com/python/python_environment.htm. 
+* Step 2: Install the required libraries via terminal. The command used for this is: 	pip install pandas scikit-learn numpy heapq . This will enable the application to be run and compiled by the machine.
+* Step 3: This application is designed to run in a Jupyter notebook environment. Please make sure you have Jupyter installed and running. To install Jupyter, run the following command in your terminal or command prompt: pip install jupyter.  Once jupyter is installed u can start it by running the following command in the terminal or command prompt: jupyter notebook. After that you are ready to run the application.
+
 ## Naive Implementation:
  Implement the naive greedy approach for hierarchical clustering as discussed in the lecture with time complexity of O(n 3 ) and O(n 2 ) memory usage. You can freely choose the distance function and the linkage method. Do not use a built-in implementation of hierarchical clustering. Keep track of the order in which the clusters are merged and build a hierarchy of clusters. Test your algorithm, e.g., by comparing your results to the results obtained by publicly available implementations. 
 
@@ -29,11 +35,4 @@ etc);
  * Compare your implementations to those available in Python libraries.
  * Verify your algorithm by comparing on a small subset of the data and visualize your result. Evaluate the runtimes.
  * Is the observed runtime in agreement with the theoretical analysis? Try to explain your findings. Describe your hardware in terms of cache and memory sizes and try to reason about runtime behavior in a discussion of your results. 
-
-
-# Instalation
-
-* Step 1: Make sure that a Python 3 environment was set up onto the machine. A free version can be found on the official website - https://www.python.org/. More details on how to set up a python environment can be found at: https://www.tutorialspoint.com/python/python_environment.htm. 
-* Step 2: Install the required libraries via terminal. The command used for this is: 	pip install pandas scikit-learn numpy heapq . This will enable the application to be run and compiled by the machine.
-* Step 3: This application is designed to run in a Jupyter notebook environment. Please make sure you have Jupyter installed and running. To install Jupyter, run the following command in your terminal or command prompt: pip install jupyter.  Once jupyter is installed u can start it by running the following command in the terminal or command prompt: jupyter notebook. After that u are ready to run the application
 
