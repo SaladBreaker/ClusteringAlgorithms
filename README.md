@@ -13,22 +13,22 @@ Option 2: Implement the hierarchical clustering algorithm utilizing a nearest-ne
 
 ## Project Testing
 In project development, there is the possibility of problems or scenarios arising unforeseen during the architectural development phase. Testing modalities that you should consider/implement for your project are as follows:
-● functional testing modalities of the project (unit testing, integration testing, etc.);
-● non-functional testing modalities of the project (scalability, performance,
+* functional testing modalities of the project (unit testing, integration testing, etc.);
+* non-functional testing modalities of the project (scalability, performance,
 security, cross-platform portability, etc.);
-● possible failures of the systems on which the project depends (internet, database,
+* possible failures of the systems on which the project depends (internet, database,
 etc);
-● ways to automate the whole testing process;
-● the use of a bug tracking or task tracking system for the project implementation
+* ways to automate the whole testing process;
+* the use of a bug tracking or task tracking system for the project implementation
 ("issues" on github or bitbucket).
 
 ## Experimental Evaluation and Documentation
- •  Evaluate your implementations with a focus on runtime.
- • Use randomly generated data and the credit card dataset of the Kaggle notebook.
+ *  Evaluate your implementations with a focus on runtime.
+ * Use randomly generated data and the credit card dataset of the Kaggle notebook.
  The website also contains detailed information on how to use hierarchical clustering in Python.
- • Compare your implementations to those available in Python libraries.
- • Verify your algorithm by comparing on a small subset of the data and visualize your result. Evaluate the runtimes.
- • Is the observed runtime in agreement with the theoretical analysis? Try to explain your findings. Describe your hardware in terms of cache and memory sizes and try to reason about runtime behavior in a discussion of your results. 
+ * Compare your implementations to those available in Python libraries.
+ * Verify your algorithm by comparing on a small subset of the data and visualize your result. Evaluate the runtimes.
+ * Is the observed runtime in agreement with the theoretical analysis? Try to explain your findings. Describe your hardware in terms of cache and memory sizes and try to reason about runtime behavior in a discussion of your results. 
 
 
 # Instalation
