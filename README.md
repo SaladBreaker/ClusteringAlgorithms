@@ -33,7 +33,7 @@ etc);
 
 # Instalation
 
-● Step 1: Make sure that a Python 3 environment was set up onto the machine. A free version can be found on the official website - https://www.python.org/. More details on how to set up a python environment can be found at: https://www.tutorialspoint.com/python/python_environment.htm. 
-● Step 2: Install the required libraries via terminal. The command used for this is: 	pip install pandas scikit-learn numpy heapq . This will enable the application to be run and compiled by the machine.
-● Step 3: This application is designed to run in a Jupyter notebook environment. Please make sure you have Jupyter installed and running. To install Jupyter, run the following command in your terminal or command prompt: pip install jupyter.  Once jupyter is installed u can start it by running the following command in the terminal or command prompt: jupyter notebook. After that u are ready to run the application
+* Step 1: Make sure that a Python 3 environment was set up onto the machine. A free version can be found on the official website - https://www.python.org/. More details on how to set up a python environment can be found at: https://www.tutorialspoint.com/python/python_environment.htm. 
+* Step 2: Install the required libraries via terminal. The command used for this is: 	pip install pandas scikit-learn numpy heapq . This will enable the application to be run and compiled by the machine.
+* Step 3: This application is designed to run in a Jupyter notebook environment. Please make sure you have Jupyter installed and running. To install Jupyter, run the following command in your terminal or command prompt: pip install jupyter.  Once jupyter is installed u can start it by running the following command in the terminal or command prompt: jupyter notebook. After that u are ready to run the application
 
