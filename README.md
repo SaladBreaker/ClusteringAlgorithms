@@ -1,6 +1,6 @@
 # CulsteringAlgorithm
 
-## Instalation
+## Installation
 
 * Step 1: Make sure that a Python 3 environment was set up onto the machine. A free version can be found on the official website - https://www.python.org/. More details on how to set up a python environment can be found at: https://www.tutorialspoint.com/python/python_environment.htm. 
 * Step 2: Install the required libraries via terminal. The command used for this is: 	pip install pandas scikit-learn numpy heapq . This will enable the application to be run and compiled by the machine.
