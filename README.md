@@ -1,6 +1,3 @@
-# Presentation: https://docs.google.com/presentation/d/1kjyIQJKmX-JwUyoX1FIQE9ncYLgZ3RnXb4aeUiB3mWw/edit#slide=id.g1bef20b4033_3_0
-# Kanban board: https://trello.com/b/L7clIZsK/clusteringalgorithm
-
 # CulsteringAlgorithm
 
 ## Naive Implementation:
@@ -34,7 +31,7 @@ etc);
  • Is the observed runtime in agreement with the theoretical analysis? Try to explain your findings. Describe your hardware in terms of cache and memory sizes and try to reason about runtime behavior in a discussion of your results. 
 
 
-##Instalation
+# Instalation
 
 ● Step 1: Make sure that a Python 3 environment was set up onto the machine. A free version can be found on the official website - https://www.python.org/. More details on how to set up a python environment can be found at: https://www.tutorialspoint.com/python/python_environment.htm. 
 ● Step 2: Install the required libraries via terminal. The command used for this is: 	pip install pandas scikit-learn numpy heapq . This will enable the application to be run and compiled by the machine.
